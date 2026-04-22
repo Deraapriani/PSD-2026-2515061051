@@ -1,4 +1,4 @@
-judul Program : Manajemen Playlist Lagu dengan ID Memori
+#Manajemen Playlist Lagu dengan ID Memori
 
 Deskripsi Singkat : Program  manajemen ini dirancang dengan sederhana untuk mengatur playlist musik menggunakan Python. Dimana kita sebagai pengguna akan dapat melihat keseluruhan ID memori dari playlist, menampilkan alamat memori (hex) setiap lagu yang ada, menambahkan lagu baru ke bagian akhir daftar, menghapus lagu berdasar nama, atau keluar dari aplikasi melalui menu interaktif yang menggunakan loop while.
 
