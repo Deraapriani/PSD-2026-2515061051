@@ -6,3 +6,8 @@ Program ini memanfaatkan struktur data list Python sebagai tempat penyimpan utam
 
  Source Code:<img width="968" height="504" alt="Screenshot 2026-04-22 150726" src="https://github.com/user-attachments/assets/b4dfc80d-b6ba-42e2-bc36-b2d416edf30f" />
 
+
+<img width="968" height="471" alt="Screenshot 2026-04-22 150802" src="https://github.com/user-attachments/assets/51ad287c-02d3-48e4-abca-398884423a00" />
+
+<img width="708" height="189" alt="Screenshot 2026-04-22 150820" src="https://github.com/user-attachments/assets/88fb2481-54e5-4e41-afbc-2ed140cd288e" />
+
