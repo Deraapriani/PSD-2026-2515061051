@@ -1,15 +1,6 @@
-Manajemen Memori dan Array/List melalui analogi sebuah rak loker.
+judul Program : Manajemen Playlist Lagu dengan ID Memori
 
-Program yang Anda buat merupakan Simulasi Pengelolaan Memori pada List yang menggunakan perbandingan "Loker". Tujuan dari program ini adalah untuk menunjukkan secara visual cara Python menyimpan objek di dalam memori (RAM) melalui struktur data List.Berikut adalah penjelasan singkat tentang aplikasi ini:
+Deskripsi Singkat : Program ini dirancang dengan sederhana untuk mengatur playlist musik menggunakan Python. Pengguna akan dapat melihat keseluruhan ID memori dari playlist, menampilkan alamat memori (hex) setiap lagu yang ada, menambahkan lagu baru ke bagian akhir daftar, menghapus lagu berdasar nama, atau keluar dari aplikasi melalui menu interaktif yang menggunakan loop while.
+Program ini memanfaatkan struktur data list Python sebagai tempat penyimpan utama playlist yang bersifat fleksibel. Operasi dasar CRUD diimplementasikan melalui fungsi bawaan seperti `append()` untuk menambah, `remove()` untuk menghapus, dan `enumerate()` untuk melakukan penelusuran dengan indeks. Keunikan dari program ini adalah penggunaan fungsi `id()` dan `hex(id())` untuk menunjukkan lokasi memori objek, yang bermanfaat untuk memahami konsep pengalamatan memori dan identitas objek dalam Python. Susunan program yang modular dengan fungsi terpisah (`tampilkan_menu()` dan `main()`) membuat kode lebih mudah untuk dibaca serta dirawat.
 
-Aplikasi ini merupakan suatu software berbasis CLI (Command Line) yang mensimulasikan pengelolaan informasi dalam 5 slot loker sekaligus memberikan gambaran mengenai cara Python menangani alamat memori (RAM).
-
-Ciri-Ciri Utama
-Pemeriksaan Memori: Menggunakan fungsi `id()` untuk memantau alamat fisik objek dalam memori yang ditampilkan dalam format Hexadesimal.
-Data Struktur: Memanfaatkan List sebagai gambaran dari rak penyimpanan.
-Keamanan Input: Memiliki fitur `try-except` (Validasi) untuk mencegah terjadinya kesalahan program jika pengguna salah memberikan input (seperti memasukan huruf pada kolom angka).
-
-Manfaat
-1. Pembelajaran: Menunjukkan bahwa variabel dalam Python berfungsi sebagai referensi yang menunjuk ke suatu alamat memori, alih-alih memegang nilai itu sendiri.
-2. Pelacakan: Menyajikan fakta bahwa ketika isi loker berubah, alamat memori yang diacu oleh slot tersebut juga akan berubah.
-
+ Source Code:
