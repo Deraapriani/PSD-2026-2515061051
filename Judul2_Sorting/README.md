@@ -10,124 +10,85 @@ source code
 <img width="798" height="241" alt="Screenshot 2026-04-29 143647" src="https://github.com/user-attachments/assets/391f9463-ccb3-4a1a-8bd9-6e45bb601861" />
 Penjelasan Kode Per Baris:
 
-Baris 1: `def tukar(arr_nilai, arr_nama, i, j):`
-Fungsi dari 'tukar' ini digunakan untuk dua array yang memiliki keterkaitan satu sama lain.
+Baris 1: Baris pertama ini isinya fungsi tukar yang gunanya buat memindahkan posisi elemen di dua array berbeda secara bersamaan. Ini penting banget supaya data nama dan nilainya tetap nyambung dan nggak berantakan pas lagi diurutkan.
 
-Baris 2: `temp_nilai = arr_nilai[i]`
-Disini bisa dilihat dengan Menempatkan nilai dari indeks i ke dalam variabel sementara.
+Baris 2 : Di sini kita pakai variabel bantuan bernama temp_nilai buat nampung data dari indeks ke-i. Tujuannya biar pas nilainya ditimpa, kita masih punya salinan data aslinya di variabel sementara itu.
 
-Baris 3: `arr_nilai[i] = arr_nilai[j]`
-Memindahkan nilai dari indeks j ke indeks i.
+Baris 3: Pada Baris ini mengganti elemen pada posisi i dengan nilai yang terdapat pada posisi j. Tujuan dari langkah ini adalah untuk menata kembali lokasi angka dalam array sehingga susunannya tepat.
 
-Baris 4: `arr_nilai[j] = temp_nilai`
-Menempatkan nilai yang disimpan sementara ke indeks j.
+Baris 4: Disini kita Menempatkan nilai yang disimpan sementara terlebih dahulu ke indeks j.
 
-Baris 6: `temp_nama = arr_nama[i]`
-Menempatkan nama dari indeks i ke dalam variabel sementara.
+Baris 6: Menempatkan nama dari indeks i ke dalam variabel untuk sementara.
 
-Baris 7: `arr_nama[i] = arr_nama[j]`
-Memindahkan nama dari indeks j ke indeks i.
+Baris 7: Baris ini bertujuan untuk mengganti elemen pada arr_nama[i] dengan informasi dari arr_nama[j]. Ini dilakukan agar ketika data mengalami pergeseran, identitas siswa tetap terhubung dengan nilai yang mereka miliki.
 
-Baris 8: `arr_nama[j] = temp_nama`
-Menempatkan nama yang disimpan sementara di posisi j.
+Baris 8: Menyimpan nama yang terdapat dalam variabel sementara ke indeks j pada array nama, agar data nama dan nilai tetap konsisten setelah proses tukar rampung.
 
-Baris 10: `def bubble_sort(arr_nilai, arr_nama, n):`
-Mendefinisikan fungsi untuk mengurutkan dengan metode bubble sort.
+Baris 10: Menggambarkan fungsi bubble_sort yang menerima dua array (nilai dan nama) serta ukuran n, bertujuan untuk mengurutkan kedua array secara bersamaan berdasarkan nilai dari yang terkecil hingga yang terbesar.
 
-Baris 11: `for i in range(n - 1):`
-Loop luar: Pada loop ini kita melakukan iterasi sebanyak n-1 kali.
+Baris 11: Proses iterasi utama (loop luar) yang berjalan sebanyak n-1 kali, di mana setiap siklus mewakili satu tahap lengkap dalam algoritma pengurutan bubble sort.
 
-Baris 12: `for j in range(n - i - 1):`
-Loop dalam: Pada loop luar disini kita membandingkan elemen hingga elemen terakhir.
+Baris 12: Proses iterasi dalam (loop dalam) yang membandingkan elemen-elemen dari indeks 0 hingga n-i-1, memastikan elemen terbesar dari tahap tersebut "mengapung" ke posisi terakhir.
 
-Baris 13: `if arr_nilai[j] < arr_nilai[j + 1]:`
-Membandingkan nilai pada indeks j dengan j+1 (ascending).
+Baris 13: Kondisi perbandingan untuk menentukan apakah pertukaran elemen diperlukan, dengan memeriksa apakah nilai pada indeks j lebih kecil dibandingkan nilai pada indeks j+1 untuk mencapai urutan yang naik.
 
-Baris 14: `tukar(arr_nilai, arr_nama, j, j + 1)`
-Memanggil fungsi tukar jika kondisinya memenuhi syarat.
+Baris 14: Memanggil metode penggantian dengan parameter daftar nilai, nama, dan indeks j serta j+1 ketika syarat perbandingan dipenuhi, sehingga kedua daftar bertukar untuk menjaga konsistensi data.
 
-Baris 16: `def main():`
-Def main ini digunakan sebagai Definisi fungsi utama dari program.
+Baris 16: Menetapkan fungsi utama sebagai pengendali inti program yang mengatur masukan, pengecekan, pengurutan, dan keluaran secara teratur.
 
-Baris 17: `try:`
-Memulai blok untuk menangani pengecualian.
+Baris 17: Menginisialisasi blok try-except untuk menangani kemungkinan kesalahan pada masukan dengan aman tanpa menyebabkan program berhenti secara mendadak.
 
-Baris 18: `n = int(input("Masukkan jumlah siswa: "))`
-Meminta input untuk jumlah siswa yang akan dimasukkan.
+Baris 18: Meminta pengguna untuk memasukkan jumlah siswa, mengubahnya menjadi integer menggunakan int(), dan menyimpannya dalam variabel n untuk digunakan dalam loop berikutnya.
 
-Baris 19: `except ValueError:`
-Menangkap kesalahan ketika input tidak berupa angka.
+Baris 19: Menangkap kesalahan ValueError yang terjadi ketika pengguna memberikan karakter non-angka untuk jumlah siswa.
 
-Baris 20: `print("Input tidak valid! ")`
-Menampilkan pesan kesalahan kepada pengguna.
+Baris 20: Menampilkan pesan error yang informatif "Input tidak valid! " agar pengguna menyadari kesalahan dalam masukan yang diberikan.
 
-Baris 21: `return`
-Menghentikan eksekusi pada fungsi utama.
+Baris 21: Menghentikan proses eksekusi fungsi utama dengan return jika masukan yang diberikan tidak valid, untuk mencegah program melanjutkan ke tahap berikutnya.
 
-Baris 24: arr_nilai = []
-Siapkan list kosong untuk menyimpan nilai
+**Baris 24:** Menginisialisasi array kosong arr_nilai untuk menyimpan semua nilai kuis siswa yang akan dimasukkan nanti.
 
-Baris 25: arr_nama = []
-Siapkan list kosong untuk menyimpan nama
+**Baris 25:** Menginisialisasi array kosong arr_nama untuk menyimpan nama-nama siswa agar dapat diproses bersamaan dengan nilai.
 
-Baris 26: print("Silakan masukkan data siswa satu per satu:")
-Berikan instruksi
+Baris 26: Menampilkan instruksi yang jelas kepada pengguna agar memahami bahwa data siswa harus dimasukkan satu per satu secara berurutan.
 
-Baris 27: for i in range(n):
-Lakukan input sebanyak n kali
+Baris 27: Memulai loop for yang akan berjalan sebanyak n kali sesuai jumlah siswa yang sudah diinput sebelumnya.
 
-Baris 28: nama = input(f"Masukkan nama siswa ke-{i+1}: "). strip()
-Minta input nama siswa
+Baris 28: Meminta input nama siswa ke-(i+1) dengan format dinamis dan membersihkan spasi berlebih menggunakan strip().
 
-Baris 29: arr_nama. append(nama)
-Simpan nama ke dalam list
+Baris 29: Menambahkan nama siswa yang baru diinput ke dalam array arr_nama menggunakan method append().
 
-Baris 31: while True:
-Mulai loop untuk memvalidasi input nilai
+Baris 31: Memulai loop while True tak terhingga untuk memastikan input nilai kuis selalu valid sebelum melanjutkan.
 
-Baris 32: try:
-Awali proses validasi nilai
+Baris 32: Memulai blok try untuk melakukan konversi input nilai ke integer dengan penanganan error.
 
-Baris 33: nilai = int(input(f"Masukkan nilai kuis {nama}: "))
-Minta input nilai kuis
+Baris 33:Meminta input nilai kuis siswa dengan menampilkan nama siswa terkait agar user tahu data mana yang sedang diinput.
 
-Baris 34: arr_nilai. append(nilai)
-Simpan nilai ke dalam list
+Baris 34:Nilai numerik yang baru dimasukkan user langsung ditambahkan ke dalam kumpulan data nilai siswa yang sudah tersimpan sebelumnya.
 
-Baris 35: break
-Akhiri loop validasi
+Baris 35: Loop validasi input dihentikan karena program sudah memastikan data nilai yang masuk benar dan siap diproses.
 
-Baris 36: except ValueError:
-Tangani kesalahan input jika bukan angka
+Baris 36:Bagian ini menangkap kesalahan ketika user memasukkan karakter huruf atau simbol padahal diharapkan input berupa angka.
 
-Baris 37: print("Nilai harus berupa angka! ")
-Pesan kesalahan untuk nilai
+Baris 37:Menampilkan notifikasi kesalahan yang menginformasikan user bahwa input nilai harus berbentuk angka murni.
 
-Baris 40: print(f"Data nilai kuis sebelum diurutkan:")
-Tampilkan judul data awal
+Baris 40: Mencetak judul informasi yang menandakan data berikutnya adalah kondisi awal sebelum pengurutan dilakukan.
 
-Baris 41: for i in range(n):
-Lakukan iterasi untuk menampilkan data awal
+Baris 41:Melakukan iterasi melalui seluruh rekaman siswa untuk menampilkan informasi lengkapnya secara berurutan.
 
-Baris 42: print(f"{arr_nama[i]}: {arr_nilai[i]}")
-Tampilkan nama dan nilai
+Baris 42: Menghasilkan output berpasangan nama siswa dan nilai kuis sesuai dengan posisi asli saat data diinput.
 
-Baris 44: bubble_sort(arr_nilai, arr_nama, n)
-Laksanakan pengurutan bubble sort
+Baris 44:Memanggil fungsi pengurutan untuk mengubah posisi semua elemen berdasarkan nilai dari terkecil hingga terbesar.
 
-Baris 46: print("Data nilai kuis setelah diurutkan:")
-Disini akan muncul Judul hasil pengurutan
+Baris 46: Mencetak header penanda bahwa daftar selanjutnya sudah dalam kondisi terurut secara ascending.
 
-Baris 47: for i in range(n):
-Lakukan iterasi untuk menampilkan hasil
+Baris 47:Mengulang proses penelusuran data untuk mengambil informasi setelah pengurutan selesai dilakukan.
 
-Baris 48: print(f"{i+1}. {arr_nama[i]}: {arr_nilai[i]}")
-Tampilkan urutan, nama, dan nilai
+Baris 48:Menampilkan hasil final dengan format terstruktur: nomor urut, nama siswa, dan nilai kuisnya.
 
-Baris 51: if __name__ == "__main__":
-Periksa apakah file dijalankan secara langsung
+Baris 51: Pengecekan standar yang menjamin kode hanya dieksekusi saat file dijalankan langsung, bukan diimpor sebagai modul.
 
-Baris 52: main()
+Baris 52: Disni Instruksi penutup yang memicu eksekusi fungsi utama untuk memulai seluruh proses program dari awal.
 Panggil fungsi utama
 
 output
