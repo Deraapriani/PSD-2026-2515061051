@@ -52,7 +52,9 @@ Pada Baris  23 : Menampilkan informasi keberhasilan pencarian kepada pengguna. D
 
 Pada baris 24: Menyediakan jalur alternatif lain jika kondisi pada baris 22 tidak terpenuhi. Bagian ini otomatis dieksekusi apabila nilai counter adalah 0, yang menandakan bahwa judul lagu yang dicari sama sekali tidak ada di dalam playlist tersebut.
 
-Pada baris 25: Memberikan umpan balik negatif kepada pengguna. Program menginformasikan secara spesifik bahwa judul lagu yang dimasukkan tidak dapat ditemukan di seluruh daftar lagu yang tersedia.
+Pada baris 26: Memberikan umpan balik negatif kepada pengguna. Program menginformasikan secara spesifik bahwa judul lagu yang dimasukkan tidak dapat ditemukan di seluruh daftar lagu yang tersedia.
+
+Pada baris 29:Entry point standar Python yang memastikan fungsi main() hanya dijalankan jika file ini dieksekusi langsung, bukan saat di-import sebagai modul.
 
 Output
 <img width="1378" height="106" alt="Screenshot 2026-05-07 082925" src="https://github.com/user-attachments/assets/53c7b7b6-ca8d-48bd-a88d-ee43159c5563" />
