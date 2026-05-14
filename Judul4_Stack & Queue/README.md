@@ -133,12 +133,21 @@ Pada baris 63 : pemanggilan fungsi main() menjadi titik awal dimulainya seluruh 
 
 Outputnya:
 <img width="1310" height="778" alt="Screenshot 2026-05-13 232347" src="https://github.com/user-attachments/assets/9777587c-122c-416d-a55f-99a3bc1e399f" />
+ DIsini output keluar dan kita memilih 1 dimana diminta masukan nama atau id piring saya memakai P01 dan keluar piring P01 diaruh diatas selanjutnya kita diminta memilih 1-1 dan saya  memilij1 dan memasukkan id   P02 dimana P02 ditrauh diatas, dan masukkan lagi 1 dan disuruh masukann id lagi P03
 
 <img width="1303" height="721" alt="Screenshot 2026-05-13 232431" src="https://github.com/user-attachments/assets/24f20837-2b39-435d-a3cf-1af4d770adac" />
 
+DIsini piring P03 ditaruh diatas, dan keluar lagi ouput disuruh memilih dan saya memilih nomr 4 dimana keluar urutan piring dari atas sampai bawah yaitu P03 P02 P01 dan saya memilij nomor 3 dimana lihat piring teratas yang dimana yang teratas adalah P03,
+
 <img width="1291" height="681" alt="Screenshot 2026-05-13 232510" src="https://github.com/user-attachments/assets/1093cc7d-be6e-4e75-83d6-573b7a92f3b8" />
 
+Disini saya memilih nomor 2 yaitu ambil piring yang akan dipakai yaitu keluar piring P03 daimbil dari atas, dan pilih 2 dan keluar piring P02 diambil dari atas dan memilih 3 yaitu lihat piring teratas yaitu P01
+
 <img width="1258" height="486" alt="Screenshot 2026-05-13 232521" src="https://github.com/user-attachments/assets/701862a8-dbfb-4eea-b7b7-9bbc05885da2" />
+
+Disini kita memilih nomor 4 dimana lihat semua piring yaitu keluar dari atas sampe bawah yaitu P01 dan memilih 5 untuk keluar dan program selesai.
+
+LINK YOUTUBE:
 
 
 
