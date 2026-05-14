@@ -148,6 +148,6 @@ Disini saya memilih nomor 2 yaitu ambil piring yang akan dipakai yaitu keluar pi
 Disini kita memilih nomor 4 dimana lihat semua piring yaitu keluar dari atas sampe bawah yaitu P01 dan memilih 5 untuk keluar dan program selesai.
 
 LINK YOUTUBE:
-
+https://youtu.be/A7iBHkxPywo
 
 
