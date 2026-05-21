@@ -1,1 +1,5 @@
+# Simulasi BST implementasi nilai ujian dengan Binary Search Tree(BST) Dasar
 
+Program yang saya gunakan menerapkan struktur data Binary Search Tree (BST) untuk mengelola data nilai ujian siswa secara terorganisasi. Melalui sistem pohon biner, setiap nilai yang diinput akan otomatis menempati posisi yang sesuai dengan prinsip dasar BST. Program ini menyediakan menu interaktif dengan berbagai fungsi, mulai dari penambahan data, penghapusan nilai spesifik, penghitungan total dan jumlah data, hingga penyajian daftar nilai secara berurutan (dari yang terkecil hingga terbesar). Pemanfaatan struktur BST ini menjamin efisiensi dalam manipulasi dan penayangan data tanpa memerlukan proses pengurutan manual kembali.
+
+Pada program ini mempermudah dalam mengelola nilai ujian karena otomatisasi pengurutan data dari kecil ke besar, sehingga mempermudah analisis distribusi nilai serta pencarian nilai tertinggi dan terendah. Fitur hitung total dan jumlah data juga mempercepat penghitungan rata-rata kelas. Selain fungsi praktisnya, program ini menjadi media pembelajaran nyata untuk memahami konsep tree, inorder traversal, serta operasi insert dan delete dalam struktur data.
