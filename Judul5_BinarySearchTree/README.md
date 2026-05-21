@@ -173,3 +173,16 @@ Pada Baris 105: Program menampilkan pesan "Pilihan tidak valid!" untuk memberita
 Pada Baris 108:  Program melakukan pengecekan apakah file Python ini sedang dieksekusi secara langsung sebagai program utama, bukan diimpor sebagai modul ke dalam program lain.
 
 Pada Baris 109: Apabila hasil pengecekan menunjukkan bahwa file dijalankan langsung, maka fungsi `main()` akan dipanggil untuk memulai menjalankan program BST nilai ujian.
+
+Output:
+<img width="479" height="762" alt="Screenshot 2026-05-21 180356" src="https://github.com/user-attachments/assets/6fba2afd-98d5-4ce0-8c07-5f8cb0efbdb8" />
+Dimana output ini keluar sesuai yang kita masukkan disitem yaitu 5 pilihan disini kita pilih 1 dan sistem memintta kita memasukkan nnilai disini saya memasukkan nilai 7, dan disgtem mengembalikan ke pilihan 5 itu dan kita memilih 1 untuk memasukkan nilai disini memasukkan nilai 8, dan kembali lagi kita memilih 1 dan memasukkkan nilai 9 dan 9 ditambahkan.
+<img width="489" height="670" alt="Screenshot 2026-05-21 180433" src="https://github.com/user-attachments/assets/dbf85dcf-058c-43d0-8725-b1f4d1f3a2a0" />
+Disini kita memasukkan kembali pilihan 1 dan memasukkan nilai 6 dan kalo sudah memasukkan nilai kita memilih nomor 2 dimana akan menampilkan nilai  urut dari terkecil ke terbesar dimana disini keluar nilai urutnya: 6 7 8 9 .terus kita memilih nomor 3 dimana akan hapus nilai dan keluar nilai apa yang ingin kita hapus. Disini saya menghapus nilai 7 dan nilai 7 dihapus.
+
+<img width="493" height="542" alt="Screenshot 2026-05-21 180446" src="https://github.com/user-attachments/assets/bc1158cf-af39-4cb6-ba15-a00335eab631" />
+
+Lanjut saya memilih nomor 4 dimana nomor 4 ini akan muncul jumlah total dan banyak nilainya. Maka akan keluar total nilainya 23 dan jumlah nilainya 3 karena satu sudah dihapus. dan lannjut pilih 5 dimana 5 akan keluar sistem selesai.
+
+Link Youtube:
+https://youtu.be/eeohkA4LohA?si=q9qoK-Oz8MlKPYC-
