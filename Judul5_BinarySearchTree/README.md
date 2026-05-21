@@ -9,5 +9,5 @@ Pada program ini mempermudah dalam mengelola nilai ujian karena otomatisasi peng
 <img width="1190" height="773" alt="Screenshot 2026-05-21 151444" src="https://github.com/user-attachments/assets/acd53858-514a-49f2-9b91-7f070ed47894" />
 <img width="1208" height="754" alt="Screenshot 2026-05-21 151458" src="https://github.com/user-attachments/assets/dbb79d2f-3514-4644-ab29-1ed32010f7f5" />
 
-
+Penjelasan kode:
 
