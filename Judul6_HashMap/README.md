@@ -157,3 +157,4 @@ Baris `Nomor telepon ruka: 083456789012` menandakan bahwa program berhasil menem
 Setelah kontak **ryujin** dihapus, tampilan hash table menunjukkan bahwa index tempat ryujin sebelumnya tersimpan berubah menjadi `None`. Hal ini membuktikan bahwa proses penghapusan data berhasil, sementara kontak lain seperti **ahyeon**, **ruka**, dan **love** tetap ada.
 
 Link Youtube:
+https://youtu.be/Pt_EDygkixI
